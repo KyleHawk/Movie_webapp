@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="{% static 'login/css/style.css' %}" rel="stylesheet"/>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Order Movie</title>
+  </head>
+  <body>
+
+     <!-- header section start -->
+      <div class="header_section">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="logo" href="index.html"><img src="../../static/login/images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+{#             nav section                  ----------------------------------#}
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="/index">Home</a>
+                  </li>
+               </ul>
+                {% if request.session.is_login %}
+                    <div class="dropdown" id="nav_dropdown">
+                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-expanded="false">
+                        {{ username }}
+                        </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/orderstatus">My Orders</a>
+                        <a class="dropdown-item" href="/order">Order Movie</a>
+                        <a class="dropdown-item" href="/logout">Logout</a>
+                    </div>
+                    </div>
+                {% else %}
+                     <div class="dropdown" id="nav_dropdown">
+                         <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-expanded="false">
+                        😊
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                         <a class="dropdown-item" href="/login">Login</a>
+                        <a class="dropdown-item" href="/register">Register</a>
+                    </div>
+                    </div>
+                {% endif %}
+
+            </div>
+         </nav>
+      </div>
+      <div>
+          <table class="table-data">
+              <thead>
+              <th>Order Number</th>
+              <th>Movie Name</th>
+              <th>Order Date</th>
+              <th>Order Status</th>
+              </thead>
+              <tbody>
+              {% for ord in orders %}
+                  <tr>
+                  <td>{{ ord.id}}</td>
+                  <td>{{ ord.movie_name }}</td>
+                  <td>{{ ord.order_date }}</td>
+                  <td>{{ ord.order_status }}</td>
+                  </tr>
+              {% endfor %}
+              </tbody>
+          </table>
+      </div>
+      <div class="footer_section layout_padding"></div>
+      <!-- Javascript files-->
+      <script src="../../static/login/js/jquery.min.js"></script>
+      <script src="../../static/login/js/popper.min.js"></script>
+      <script src="../../static/login/js/bootstrap.bundle.min.js"></script>
+      <script src="../../static/login/js/jquery-3.0.0.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,639 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Internal Server Error: /order/
+Traceback (most recent call last):
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: movie_website_orders
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dhira\Desktop\Latest_Project\Latest_code_29032022\Movie_webapp\movie_website\views.py", line 214, in place_order
+    order.save()
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\models\base.py", line 806, in save
+    self.save_base(
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\models\base.py", line 857, in save_base
+    updated = self._save_table(
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\models\base.py", line 1000, in _save_table
+    results = self._do_insert(
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\models\base.py", line 1041, in _do_insert
+    return manager._insert(
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\models\query.py", line 1434, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\dhira\PycharmProjects\IMDB_Project\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: movie_website_orders
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+{'Title': 'Moon', 'Year': '2009', 'Rated': 'R', 'Released': '10 Jul 2009', 'Runtime': '97 min', 'Genre': 'Drama, Mystery, Sci-Fi', 'Director': 'Duncan Jones', 'Writer': 'Duncan Jones, Nathan Parker', 'Actors': 'Sam Rockwell, Kevin Spacey, Dominique McElligott', 'Plot': 'Astronaut Sam Bell has a quintessentially personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends back to Earth parcels of a resource that has helped diminish our ', 'Language': 'English, Spanish', 'Country': 'United Kingdom, United States', 'Awards': 'Won 1 BAFTA Film Award28 wins & 37 nominations total', 'Poster': 'https://m.media-amazon.com/images/M/MV5BMTgzODgyNTQwOV5BMl5BanBnXkFtZTcwNzc0NTc0Mg@@._V1_SX300.jpg', 'Ratings': [{'Source': 'Internet Movie Database', 'Value': '7.8/10'}, {'Source': 'Rotten Tomatoes', 'Value': '90%'}, {'Source': 'Metacritic', 'Value': '67/100'}], 'Metascore': '67', 'imdbRating': '7.8', 'imdbVotes': '352,205', 'imdbID': 'tt1182345', 'Type': 'movie', 'DVD': '29 Dec 2009', 'BoxOffice': '$5,010,163', 'Production': 'N/A', 'Website': 'N/A', 'Response': 'True'}
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Watching for file changes with StatReloader
+Not Found: /
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: movie_website_movie.number
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lyle/Desktop/webapp/Movie_webapp/movie_website/views.py", line 28, in index
+    return render(request, 'login/index.html', {'movie_list': movie_list})
+  File "/opt/homebrew/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/models/query.py", line 302, in __len__
+    self._fetch_all()
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/models/query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: movie_website_movie.number
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: movie_website_movie.number
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lyle/Desktop/webapp/Movie_webapp/movie_website/views.py", line 28, in index
+    return render(request, 'login/index.html', {'movie_list': movie_list})
+  File "/opt/homebrew/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/models/query.py", line 302, in __len__
+    self._fetch_all()
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/models/query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/homebrew/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 477, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: movie_website_movie.number
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+/Users/lyle/Desktop/webapp/Movie_webapp/movie_website/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /detail/index.html
+Not Found: /detail/index.html
+Not Found: /index.html
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /detail/index.html
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /order_status
+Not Found: /order_status
+Not Found: /order_status
+Not Found: /order_status
+/Users/lyle/Desktop/webapp/Movie_webapp/movie_website/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /detail/index.html
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /detail
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /favicon.ico
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/images/fevicon.png
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/css/owl.theme.default.min.css
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /login/static/images/fevicon.png
+Not Found: /favicon.ico
+Not Found: /login/static/js/owl.carousel.js
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico

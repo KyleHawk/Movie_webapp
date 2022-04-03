@@ -1,0 +1,79 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="{% static 'login/css/login.css' %}" rel="stylesheet"/>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Order Status</title>
+  </head>
+  <body>
+
+     <!-- header section start -->
+      <div class="header_section">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="logo" href="index.html"><img src="../../static/login/images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+{#             nav section                  ----------------------------------#}
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="/index">Home</a>
+                  </li>
+               </ul>
+                {% if request.session.is_login %}
+                    <div class="dropdown" id="nav_dropdown">
+                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-expanded="false">
+                        {{ username }}
+                        </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/orderstatus">My Orders</a>
+                        <a class="dropdown-item" href="/order">Order Movie</a>
+                        <a class="dropdown-item" href="/logout">Logout</a>
+                    </div>
+                    </div>
+                {% else %}
+                     <div class="dropdown" id="nav_dropdown">
+                         <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-expanded="false">
+                        😊
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                         <a class="dropdown-item" href="/login">Login</a>
+                        <a class="dropdown-item" href="/register">Register</a>
+                    </div>
+                    </div>
+                {% endif %}
+
+            </div>
+         </nav>
+      </div>
+
+     <div class="container">
+            <div class=alert>
+                {% if message == "unsuccess"%}
+                    <p>Movie already present in our website. Please enter different movie</p>
+                    <a href="/order" class="button">Back</a>
+                {% elif message == "success" %}
+                    <p>Order has been placed successfully. Check your orders for updates</p>
+                    <a href="/index" class="button">Home</a>
+                {% endif %}
+            </div>
+    </div> <!-- /container -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    {#    以下三者的引用顺序是固定的#}
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

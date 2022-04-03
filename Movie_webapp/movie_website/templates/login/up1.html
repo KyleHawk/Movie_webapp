@@ -1,0 +1,49 @@
+{% extends 'login/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+
+      <!-- site metas -->
+      <title>Movie Website</title>
+   </head>
+
+   <body>
+   {% block body_block %}
+<div class="movies_section">
+{#         <div class="container">#}
+            <div class="movies_section_2 layout_padding">
+               <div class="container">
+
+          <!--Simple Form-->
+              <h2 class="letest_text_2">Add a new avatar</h2>
+              <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                    <input type="file" name="upload" accept="image/*">
+                    <br>
+                    <button class="btn btn-dark my-4" type="submit">Submit</button>
+              </form>
+
+              <!--See Image Uploaded-->
+              <h2 class="letest_text_2">Avatar</h2>
+              <div class="row">
+                {% if file_url %}
+{#                    <div class="col-lg-4 col-md-6 col-sm-12 pb-4">#}
+        {#                <p>{{ file_url }}</p>#}
+                      <img class="col-lg-0 col-md-0 col-sm-0 pb-4" src="{{ file_url }}">
+                      <br>
+                    {% else %}
+                    <p>No avatar added.</p>
+{#                    </div>#}
+                {% endif %}
+
+
+              </div>
+                  </div>
+               </div>
+{#            </div>#}
+</div>
+{% endblock %}
+   </body>
+
+</html>
