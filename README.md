@@ -1,4 +1,15 @@
 # Movie_webapp
+Our website includes the following features: 
+1.	User rating (Dynamic) 
+2.	Top 10 movies (Dynamic) 
+3.	Movies Categories (Dynamic) 
+4.	Order movies 
+5.	Change avatar (Uploading image) 
+6.	Register 
+7.	Login and logout 
+8.	Forget Password 
+
+
 User manual 
 
 Run manage.py then run runserver command in console.
