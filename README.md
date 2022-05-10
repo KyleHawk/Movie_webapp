@@ -1,5 +1,5 @@
 # Movie_webapp
-Our website includes the following features: 
+This website includes the following features: 
 1.	User rating (Dynamic) 
 2.	Top 10 movies (Dynamic) 
 3.	Movies Categories (Dynamic) 
